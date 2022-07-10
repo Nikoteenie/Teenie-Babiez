@@ -5,6 +5,19 @@ body {
   font-family: "Inconsolata", monospace;
   margin: 50px auto;
 }
+.home {
+  background-color: #017bfe;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px 13px;
+  transition: all 100ms ease-in-out;
+}
+
+.home:hover {
+  background-color: #885df1;
+  color: red;
+}
 
 .sense {
   color: #017bfe;
@@ -62,8 +75,8 @@ p {
   padding: 20px 10px;
 }
 
-.title{
- border: 2px solid #017bfe;
+.title {
+  border: 2px solid #017bfe;
 }
 
 footer {

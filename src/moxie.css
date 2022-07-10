@@ -5,6 +5,19 @@ body {
   font-family: "Inconsolata", monospace;
   margin: 50px auto;
 }
+.home {
+   background-color: red;
+  color: black;
+  font-size: 18px;
+ margin-bottom: 10px;
+  padding: 10px 13px;
+  transition: all 100ms ease-in-out;
+}
+
+.home:hover {
+   background-color: #017bfe;
+   color: red;
+}
 
 .moxie {
   color: white;
