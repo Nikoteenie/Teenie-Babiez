@@ -1,0 +1,119 @@
+body {
+  background-image: url(../images/sense_pattern-01.png);
+  background-size: 10%;
+  background-repeat: repeat;
+  font-family: "Inconsolata", monospace;
+  margin: 50px auto;
+}
+
+.sense {
+  color: #017bfe;
+}
+
+.name-title {
+  background: white;
+  margin-bottom: 10px;
+  padding: 30px 40px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2,
+h5,
+.reflection p {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.photos {
+  color: #017bfe;
+}
+
+.photos:hover {
+  color: #00d4ff;
+  text-decoration: none;
+}
+.marquee {
+  background: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.text {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+
+.title{
+ border: 2px solid #017bfe;
+}
+
+footer {
+  background: white;
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+footer a {
+  color: #017bfe;
+}
+
+footer a:hover {
+  color: #00d4ff;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2,
+  .marquee {
+    font-size: 20px;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .reflection p {
+    font-size: 20px;
+  }
+
+  .name-title {
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .text {
+    margin-bottom: 10px;
+    padding: 20px 30px;
+  }
+}
